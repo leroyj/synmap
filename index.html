@@ -4,12 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Réseau SYN'Optique</title>
-        <meta name="description" content="">
+        <meta name="description" content="Liste des services gérés par SYN">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin=""/>
-        <link href="https://cdn.materialdesignicons.com/1.3.41/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="./index.css" />
+        <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
         <link rel="icon" href="https://www.sy-numerique.fr/wp-content/uploads/2022/05/cropped-android-chrome-512x512-1-263x263.png" sizes="192x192" />
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -17,11 +18,7 @@
         <script type="text/javascript" src="./leaflet.icon.glyph/Leaflet.Icon.Glyph.js"></script>
         <script type="text/javascript" src="./Leaflet.heat/leaflet-heat.js"></script>
         <style>
-            .leaflet-marker-icon .serif {
-                font-weight: bold;
-                font-style: italic;
-                font-family: "Serif";
-            }
+
         </style>
     </head>
     <body>
@@ -46,7 +43,7 @@
                             const response = await fetch("./geojson/"+layer.geoJsonFile);
                             const exportedLocations = await response.json();
                             let markerlabel;
-                            console.log(layer.layerType);
+                            console.log ("Processing "+layer.layerType+"...");
                             const markers = exportedLocations.features.reduce( (markerTable,location) => {
                                 if (location && typeof location === "object" && "geometry" in location && location.geometry && typeof location.geometry === "object") {
                                     let myIcon;
@@ -64,7 +61,7 @@
                                             myIcon = config.customIconByType[virtualType];
                                             break;
                                         default:
-                                            console.log("unknown type of layer");
+                                            console.log("unknown type of layer: '"+layer.layerType+"'");
                                             virtualType = "unknown virtual type";
                                             markerlabel = "unknow label of layer";
                                             myIcon = config.customIconByType["unknown"];
@@ -75,16 +72,12 @@
                                             markerArray: []
                                         };
                                     }
-
                                     markerTable[virtualType].markerArray.push( L.marker(
-                                    //markerTable[myLayerType].push( L.marker(
                                             [location.geometry.coordinates[1], location.geometry.coordinates[0]],
                                             { icon: L.icon.glyph(myIcon)}
                                         ).bindPopup(
                                             markerlabel
                                     ));
-                                    //console.log(myLayer);
-                                    //markerTable.push(myLayer);
                                     heatmapTable.push([location.geometry.coordinates[1], location.geometry.coordinates[0],1]);
                                 } else {
                                     console.log("Invalid site error: ");
@@ -97,9 +90,6 @@
 
                             let virtualLayer;
                             Object.keys(markers).forEach((currentLayer) => {
-                                console.log("coucou2");
-                                console.log(currentLayer);
-                                console.log(markers[currentLayer].virtualType);
                                 switch (currentLayer.virtualType) {
                                     case "net":
                                         virtualLayer = currentLayer.name;
@@ -108,7 +98,7 @@
                                         virtualLayer = currentLayer.name+"-"+currentLayer.sousType;
                                         break;
                                     default:
-                                        console.log("unknown type of layer");
+                                        console.log("unknown type of layer: '"+currentLayer.virtualType+"'");
                                         virtualLayer = "unknown";
                                 }
                                 const group = L.layerGroup(markers[currentLayer].markerArray);
@@ -121,39 +111,42 @@
                         }
                     }
 
-                const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    maxZoom: 19,
-                    attribution: '© OpenStreetMap'
-                });
+                    const departementFile = await fetch("./geojson/departement78-92.json");
+                    const departementJSON = await departementFile.json();
+                    const departementLayer = L.geoJSON(departementJSON);
+                    overlayMaps["Département"] = departementLayer;
+                    locationLayer.push(departementLayer);
 
-                const osmHOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-                    maxZoom: 19,
-                    attribution: '© OpenStreetMap contributors, Tiles style by Humanitarian OpenStreetMap Team hosted by OpenStreetMap France'
-                });
+                    const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 19,
+                        attribution: '© OpenStreetMap'
+                    });
 
-                locationLayer.push(osm);
+                    const osmHOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+                        maxZoom: 19,
+                        attribution: '© OpenStreetMap contributors, Tiles style by Humanitarian OpenStreetMap Team hosted by OpenStreetMap France'
+                    });
 
-                const heat = L.heatLayer(heatmapTable, {radius: 25});
-                overlayMaps["Heatmap"] = heat;
-                locationLayer.push(heat);
+                    locationLayer.push(osm);
 
-                const map = L.map('map', {
-                    center: config.mapCenter,
-                    zoom: config.mapZoom,
-                    layers: locationLayer
-                });
+                    const heat = L.heatLayer(heatmapTable, {radius: 25});
+                    overlayMaps["Heatmap"] = heat;
+                    locationLayer.push(heat);
 
-                const baseMaps = {
-                    "OpenStreetMap": osm,
-                    "OpenStreetMap.HOT": osmHOT,
-                };
-                console.log("overlayMaps");
-                //console.log(baseMaps);
-                console.log(overlayMaps);
-                L.control.layers(baseMaps, overlayMaps).addTo(map);
-                } catch (err) {
-                    console.error("Erreur de chargement JSON config.json :", configFile, err);
-                }
+                    const map = L.map('map', {
+                        center: config.mapCenter,
+                        zoom: config.mapZoom,
+                        layers: locationLayer
+                    });
+
+                    const baseMaps = {
+                        "OpenStreetMap": osm,
+                        "OpenStreetMap.HOT": osmHOT,
+                    };
+                    L.control.layers(baseMaps, overlayMaps).addTo(map);
+                    } catch (err) {
+                        console.error("Erreur de chargement JSON config.json :", err);
+                    }
             }
             initMap();
         </script>

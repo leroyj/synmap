@@ -3,57 +3,57 @@
     "mapZoom": 10,
     "customIconByType": {
         "YVELINES NUMERIQUES": {
-            "glyphColor": "deepskyblue",
+            "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "chair-school"
         },
         "SYN": {
-            "glyphColor": "deepskyblue",
+            "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "chair-school"
         },
         "CDSI": {
-            "glyphColor": "deepskyblue",
+            "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
-            "glyph": "camcorder"
+            "glyph": "cctv"
         },
         "BACKBONE": {
-            "glyphColor": "deepskyblue",
+            "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
-            "glyph": "minus-network"
+            "glyph": "ip-network"
         },
         "COL_78": {
-            "glyphColor": "blue",
-            "glyphSize": "20px",
-            "prefix": "mdi",
-            "glyph": "chair-school"
-        },
-        "LYC_78": {
-            "glyphColor": "lightgrey",
+            "glyphColor": "lavender",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "school"
         },
+        "LYC_78": {
+            "glyphColor": "lavender",
+            "glyphSize": "20px",
+            "prefix": "mdi",
+            "glyph": "school-outline"
+        },
         "ROYAL": {
-            "glyphColor": "tomato",
+            "glyphColor": "gold",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "crown"
         },
         "DPT_78": {
-            "glyphColor": "pink",
+            "glyphColor": "mistyrose",
             "glyphSize": "20px",
             "prefix": "",
             "cssClass":"serif",
             "className":"serif",
-            "glyph": "Y"
+            "glyph": "y'"
         },
         "SDIS": {
-            "glyphColor": "red",
+            "glyphColor": "tomato",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "fire"
@@ -62,7 +62,7 @@
             "glyphColor": "light-purple",
             "glyphSize": "20px",
             "prefix": "mdi",
-            "glyph": "city"
+            "glyph": "city-variant"
         },
         "VILLE": {
             "glyphColor": "purple",
@@ -71,7 +71,7 @@
             "glyph": "city"
         },
         "INRA": {
-            "glyphColor": "green",
+            "glyphColor": "limegreen",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "flower"
@@ -95,7 +95,7 @@
             "glyph": "shield"
         },
         "SITER": {
-            "glyphColor": "black",
+            "glyphColor": "maroon",
             "glyphSize": "20px",
             "prefix": "mdi",
             "glyph": "traffic-light"
@@ -119,10 +119,10 @@
             "layerType": "net",
             "geoJsonFile": "yen_adr.json",
             "customIcon": {
-                "glyphColor": "turquoise",
+                "glyphColor": "lightcyan",
                 "glyphSize": "20px",
                 "prefix": "mdi",
-                "glyph": "square-inc"
+                "glyph": "network-outline"
             }
         },
         {
@@ -130,10 +130,10 @@
             "layerType": "net",
             "geoJsonFile": "yen_shelter.json",
             "customIcon": {
-                "glyphColor": "light-grey",
+                "glyphColor": "lightcyan",
                 "glyphSize": "20px",
                 "prefix": "mdi",
-                "glyph": "home-map-marker"
+                "glyph": "upload-network"
             }
         },
         {
@@ -141,10 +141,10 @@
             "layerType": "net",
             "geoJsonFile": "yen_datacenter.json",
             "customIcon": {
-                "glyphColor": "silver",
+                "glyphColor": "lightcyan",
                 "glyphSize": "20px",
                 "prefix": "mdi",
-                "glyph": "server"
+                "glyph": "server-network"
             }
         },
         {
