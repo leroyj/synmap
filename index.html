@@ -113,9 +113,51 @@
 
                     const departementFile = await fetch("./geojson/departement78-92.json");
                     const departementJSON = await departementFile.json();
-                    const departementLayer = L.geoJSON(departementJSON);
+                    function departementStyle() {
+                        return {
+                            fillColor: "blue",
+                            weight: 2,
+                            opacity: 1,
+                            color: 'blue',
+                            dashArray: '3',
+                            fillOpacity: 0
+                        };
+                    }
+                    const departementLayer = L.geoJSON(departementJSON, {style: departementStyle});
                     overlayMaps["Département"] = departementLayer;
                     locationLayer.push(departementLayer);
+
+                    const communesFile = await fetch("./geojson/communes78-92.json");
+                    const communesJSON = await communesFile.json();
+                    function communesStyle() {
+                       return {
+                            fillColor: "blue",
+                            weight: 1,
+                            opacity: 1,
+                            color: 'blue',
+                            dashArray: '3',
+                            fillOpacity: 0
+                        };
+                    }
+                    const communesLayer = L.geoJSON(communesJSON, {style: communesStyle});
+                    overlayMaps["Communes"] = communesLayer;
+                    //locationLayer.push(communesLayer);
+
+                    const cableFile = await fetch("./geojson/yen_cable.json");
+                    const cableJSON = await cableFile.json();
+                    function cableStyle() {
+                       return {
+                            fillColor: "red",
+                            weight: 2,
+                            opacity: 1,
+                            color: 'red',
+                            dashArray: '3',
+                            fillOpacity: 0
+                        };
+                    }
+                    const cableLayer = L.geoJSON(cableJSON, {style: cableStyle});
+                    overlayMaps["cable"] = cableLayer;
+                    locationLayer.push(cableLayer);
 
                     const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                         maxZoom: 19,
