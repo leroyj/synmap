@@ -17,6 +17,7 @@
         crossorigin=""></script>
         <script type="text/javascript" src="./leaflet.icon.glyph/Leaflet.Icon.Glyph.js"></script>
         <script type="text/javascript" src="./Leaflet.heat/leaflet-heat.js"></script>
+        <script type="text/javascript" src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
         <style>
 
         </style>
@@ -51,14 +52,37 @@
                                     let virtualType;
                                     switch (layer.layerType) {
                                         case "net":
-                                            virtualType = layer.layerName;
-                                            markerlabel = `<b>${location.properties.NOM}</b><br>${location.properties.Adresse}<br>${location.properties.CODEPOSTAL} ${location.properties.Commune}`;
+                                            //virtualType = layer.layerName;
+                                            virtualType = `<span class="iconify" data-icon="`
+                                                            +layer.customIcon.prefix
+                                                            +"-"+layer.customIcon.glyph+`"></span>`
+                                                            +layer.layerName;
+                                            markerlabel = `<b>${location.properties.NOM}</b><br>
+                                                            ${location.properties.Adresse}<br>
+                                                            ${location.properties.CODEPOSTAL} ${location.properties.Commune}`;
                                             myIcon = layer.customIcon;
                                             break;
                                         case "site":
-                                            virtualType = location.properties["Type de site"];
-                                            markerlabel = `<b>site B : ${location.properties["B: Site distant"]}</b><br>${location.properties["N° CFS"]}<br>${location.properties["SITE / NOM PROJET"]} <br>adresse : ${location.properties["Adresse site distant"]} ${location.properties.Ville}`;
-                                            myIcon = config.customIconByType[virtualType];
+                                            //virtualType = location.properties["Type de site"];
+                                            if (config.customIconByType[location.properties["Type de site"]] && typeof config.customIconByType[location.properties["Type de site"]]  === "object") {
+                                                virtualType = `<span class="iconify" data-icon="`
+                                                                +config.customIconByType[location.properties["Type de site"]].prefix
+                                                                +"-"+config.customIconByType[location.properties["Type de site"]].glyph+`"></span>`
+                                                                +location.properties["Type de site"];
+                                            } else {
+                                                console.log("no configuration for this location : "+location.properties["Type de site"]+"/"+location.properties["B: Site distant"]);
+                                                virtualType = location.properties["Type de site"];
+                                            }
+                                            markerlabel = `<b>site B : ${location.properties["B: Site distant"]}</b><br>
+                                                            ${location.properties["N° CFS"]}<br>
+                                                            ${location.properties["SITE / NOM PROJET"]} <br>
+                                                            adresse : ${location.properties["Adresse site distant"]} ${location.properties.Ville}`;
+                                            myIcon = config.customIconByType[location.properties["Type de site"]];
+                                            markerlabel = `<b>site B : ${location.properties["B: Site distant"]}</b><br>
+                                                            ${location.properties["N° CFS"]}<br>
+                                                            ${location.properties["SITE / NOM PROJET"]} <br>
+                                                            adresse : ${location.properties["Adresse site distant"]} ${location.properties.Ville}`;
+                                            myIcon = config.customIconByType[location.properties["Type de site"]];
                                             break;
                                         default:
                                             console.log("unknown type of layer: '"+layer.layerType+"'");
