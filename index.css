@@ -1,12 +1,76 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
 #map { height: 180px; }
+=======
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100vw;
+}
+>>>>>>> 53a46120784e8b423815cc62a280bfd4de55b2cc
 
 .serif {
     font-weight: bold;
     font-style: italic;
     font-family: "Serif";
 }
+<<<<<<< HEAD
 
 h1 {
     font-family: 'Manrope', sans-serif;
+=======
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1 1 300px; /* minimum 300px, sinon passage à la ligne */
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+#loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* style desktop par défaut */
+#map { 
+  display: block;
+  max-width: 100%; 
+  height: 80%; 
+  width: 100vw;
+}
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 1024px) {
+  /* ajustements pour écrans moyens */
+}
+
+@media (max-width: 768px) {
+  body { font-size: 1rem; }
+  /* mises en page simplifiées, menus hamburger, etc. */
+  .grid { gap: 0.5rem; }
+}
+
+@media (max-width: 480px) {
+  .nav { display: none;} /* remplacer par menu burger */ 
+>>>>>>> 53a46120784e8b423815cc62a280bfd4de55b2cc
 }
