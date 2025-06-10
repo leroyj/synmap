@@ -6,13 +6,13 @@
             "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
-            "glyph": "chair-school"
+            "glyph": "mdi-alpha-s-outline"
         },
         "SYN": {
             "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
-            "glyph": "chair-school"
+            "glyph": "mdi-alpha-s-outline"
         },
         "CDSI": {
             "glyphColor": "lightcyan",
