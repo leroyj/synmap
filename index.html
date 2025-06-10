@@ -28,7 +28,7 @@
         </header>
         <h1>Réseau SYN'Optique</h1>
         <div id="loader"></div>
-        <div id="map" style="width: 1024px; height: 768px; display: none">
+        <div id="map" style="width: 1024px; height: 768px; opacity: 0;">
             <script type="module">
                 async function initMap() {
                     let overlayMaps = {};
@@ -211,7 +211,7 @@
                         L.control.layers(baseMaps, overlayMaps).addTo(map);
                         document.getElementById("loader").style.display = "none";
                         // Et on affiche le composant principal
-                        document.getElementById("map").style.display = "block";
+                        document.getElementById("map").style.opacity = 1;
                     } catch (err) {
                         console.error("Erreur de chargement JSON config.json :", err);
                     }
