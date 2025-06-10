@@ -6,21 +6,13 @@
             "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
-<<<<<<< HEAD
             "glyph": "alpha-s-box-outline"
-=======
-            "glyph": "mdi-alpha-s-box-outline"
->>>>>>> 53a46120784e8b423815cc62a280bfd4de55b2cc
         },
         "SYN": {
             "glyphColor": "lightcyan",
             "glyphSize": "20px",
             "prefix": "mdi",
-<<<<<<< HEAD
             "glyph": "alpha-s-box-outline"
-=======
-            "glyph": "mdi-alpha-s-box-outline"
->>>>>>> 53a46120784e8b423815cc62a280bfd4de55b2cc
         },
         "CDSI": {
             "glyphColor": "lightcyan",
