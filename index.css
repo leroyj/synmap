@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
 #map { height: 180px; }
-=======
 body {
   padding: 0;
   margin: 0;
@@ -11,18 +9,17 @@ html, body {
   height: 100%;
   width: 100vw;
 }
->>>>>>> 53a46120784e8b423815cc62a280bfd4de55b2cc
 
 .serif {
     font-weight: bold;
     font-style: italic;
     font-family: "Serif";
 }
-<<<<<<< HEAD
 
 h1 {
     font-family: 'Manrope', sans-serif;
-=======
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -71,6 +68,5 @@ img { max-width: 100%; height: auto; }
 }
 
 @media (max-width: 480px) {
-  .nav { display: none;} /* remplacer par menu burger */ 
->>>>>>> 53a46120784e8b423815cc62a280bfd4de55b2cc
+  .nav { display: none;} /* remplacer par menu burger */
 }
