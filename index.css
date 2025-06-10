@@ -45,7 +45,7 @@ html, body {
 #map { 
   display: block;
   max-width: 100%; 
-  height: 90%; 
+  height: 80%; 
   width: 100vw;
 }
 img { max-width: 100%; height: auto; }
