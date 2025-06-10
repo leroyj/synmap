@@ -1,0 +1,694 @@
+{
+  "collegeList": [
+    {
+      "lat": "48.97161858",
+      "lng": "2.07593753",
+      "popup": "<a href='/rechetab/0783636D-college-camille-du-gast-acheres.html'>CLG CAMILLE DU GAST</a><br/>78260 ACHERES<br/>",
+      "uai": "0783636D"
+    },
+    {
+      "lat": "48.95667089",
+      "lng": "2.07005387",
+      "popup": "<a href='/rechetab/0783248G-college-jean-lurcat-acheres.html'>CLG JEAN LURCAT</a><br/>78260 ACHERES<br/>",
+      "uai": "0783248G"
+    },
+    {
+      "lat": "48.96739859",
+      "lng": "2.04059783",
+      "popup": "<a href='/rechetab/0780002D-college-st-exupery-andresy.html'>CLG ST EXUPERY</a><br/>78570 ANDRESY<br/>",
+      "uai": "0780002D"
+    },
+    {
+      "lat": "48.95124277",
+      "lng": "1.85551464",
+      "popup": "<a href='/rechetab/0780506B-college-arthur-rimbaud-aubergenville.html'>CLG ARTHUR RIMBAUD</a><br/>78410 AUBERGENVILLE<br/>",
+      "uai": "0780506B"
+    },
+    {
+      "lat": "48.85561627",
+      "lng": "1.90518250",
+      "popup": "<a href='/rechetab/0780713B-college-francois-rabelais-beynes.html'>CLG FRANCOIS RABELAIS</a><br/>78650 BEYNES<br/>",
+      "uai": "0780713B"
+    },
+    {
+      "lat": "48.79960103",
+      "lng": "2.02521834",
+      "popup": "<a href='/rechetab/0780261K-college-mozart-bois-d-arcy.html'>CLG MOZART</a><br/>78390 BOIS-D'ARCY<br/>",
+      "uai": "0780261K"
+    },
+    {
+      "lat": "48.61456618",
+      "lng": "2.02566137",
+      "popup": "<a href='/rechetab/0781846H-college-les-trois-moulins-bonnelles.html'>CLG LES TROIS MOULINS</a><br/>78830 BONNELLES<br/>",
+      "uai": "0781846H"
+    },
+    {
+      "lat": "49.03138072",
+      "lng": "1.57027555",
+      "popup": "<a href='/rechetab/0780707V-college-marcel-pagnol-bonnieres-sur-seine.html'>CLG MARCEL PAGNOL</a><br/>78270 BONNIERES-SUR-SEINE<br/>",
+      "uai": "0780707V"
+    },
+    {
+      "lat": "48.94329156",
+      "lng": "1.53721772",
+      "popup": "<a href='/rechetab/0781862A-college-les-nenuphars-breval.html'>CLG LES NENUPHARS</a><br/>78980 BREVAL<br/>",
+      "uai": "0781862A"
+    },
+    {
+      "lat": "48.77120598",
+      "lng": "2.12151821",
+      "popup": "<a href='/rechetab/0783546F-college-franco-allemand-buc.html'>CLG FRANCO ALLEMAND</a><br/>78530 BUC<br/>",
+      "uai": "0783546F"
+    },
+    {
+      "lat": "48.77019738",
+      "lng": "2.12074053",
+      "popup": "<a href='/rechetab/0780715D-college-martin-luther-king-buc.html'>CLG MARTIN LUTHER KING</a><br/>78530 BUC<br/>",
+      "uai": "0780715D"
+    },
+    {
+      "lat": "48.94859273",
+      "lng": "2.03560196",
+      "popup": "<a href='/rechetab/0781817B-college-claude-monet-carrieres-sous-poissy.html'>CLG CLAUDE MONET</a><br/>78955 CARRIERES-SOUS-POISSY<br/>",
+      "uai": "0781817B"
+    },
+    {
+      "lat": "48.93770004",
+      "lng": "2.02126955",
+      "popup": "<a href='/rechetab/0780032L-college-flora-tristan-carrieres-sous-poissy.html'>CLG FLORA TRISTAN</a><br/>78955 CARRIERES-SOUS-POISSY<br/>",
+      "uai": "0780032L"
+    },
+    {
+      "lat": "48.91392987",
+      "lng": "2.19499386",
+      "popup": "<a href='/rechetab/0780033M-college-les-amandiers-carrieres-sur-seine.html'>CLG LES AMANDIERS</a><br/>78420 CARRIERES-SUR-SEINE<br/>",
+      "uai": "0780033M"
+    },
+    {
+      "lat": "48.91097003",
+      "lng": "2.02967218",
+      "popup": "<a href='/rechetab/0781683F-college-andre-derain-chambourcy.html'>CLG ANDRE DERAIN</a><br/>78240 CHAMBOURCY<br/>",
+      "uai": "0781683F"
+    },
+    {
+      "lat": "48.97065071",
+      "lng": "2.03357542",
+      "popup": "<a href='/rechetab/0781986K-college-magellan-chanteloup-les-vignes.html'>CLG MAGELLAN</a><br/>78570 CHANTELOUP-LES-VIGNES<br/>",
+      "uai": "0781986K"
+    },
+    {
+      "lat": "48.97405579",
+      "lng": "2.03072260",
+      "popup": "<a href='/rechetab/0781108F-college-rene-cassin-chanteloup-les-vignes.html'>CLG RENE CASSIN</a><br/>78570 CHANTELOUP-LES-VIGNES<br/>",
+      "uai": "0781108F"
+    },
+    {
+      "lat": "48.90263772",
+      "lng": "2.16050916",
+      "popup": "<a href='/rechetab/0780507C-college-auguste-renoir-chatou.html'>CLG AUGUSTE RENOIR</a><br/>78400 CHATOU<br/>",
+      "uai": "0780507C"
+    },
+    {
+      "lat": "48.88901558",
+      "lng": "2.15401474",
+      "popup": "<a href='/rechetab/0780575B-college-paul-bert-chatou.html'>CLG PAUL BERT</a><br/>78400 CHATOU<br/>",
+      "uai": "0780575B"
+    },
+    {
+      "lat": "48.70374381",
+      "lng": "2.04619949",
+      "popup": "<a href='/rechetab/0780418F-college-pierre-de-coubertin-chevreuse.html'>CLG PIERRE DE COUBERTIN</a><br/>78460 CHEVREUSE<br/>",
+      "uai": "0780418F"
+    },
+    {
+      "lat": "48.75392769",
+      "lng": "1.92442801",
+      "popup": "<a href='/rechetab/0781511U-college-la-mare-aux-saules-coignieres.html'>CLG LA MARE AUX SAULES</a><br/>78310 COIGNIERES<br/>",
+      "uai": "0781511U"
+    },
+    {
+      "lat": "48.99770125",
+      "lng": "2.11666388",
+      "popup": "<a href='/rechetab/0781985J-college-des-hautes-rayes-conflans-sainte-honorine.html'>CLG DES HAUTES RAYES</a><br/>78700 CONFLANS-SAINTE-HONORINE<br/>",
+      "uai": "0781985J"
+    },
+    {
+      "lat": "48.99809707",
+      "lng": "2.08452774",
+      "popup": "<a href='/rechetab/0780183A-college-montaigne-conflans-sainte-honorine.html'>CLG MONTAIGNE</a><br/>78700 CONFLANS-SAINTE-HONORINE<br/>",
+      "uai": "0780183A"
+    },
+    {
+      "lat": "49.01178826",
+      "lng": "2.11828074",
+      "popup": "<a href='/rechetab/0780050F-college-samuel-paty-conflans-sainte-honorine.html'>CLG SAMUEL PATY</a><br/>78700 CONFLANS-SAINTE-HONORINE<br/>",
+      "uai": "0780050F"
+    },
+    {
+      "lat": "48.87520864",
+      "lng": "2.14425991",
+      "popup": "<a href='/rechetab/0780847X-college-jean-moulin-croissy-sur-seine.html'>CLG JEAN MOULIN</a><br/>78290 CROISSY-SUR-SEINE<br/>",
+      "uai": "0780847X"
+    },
+    {
+      "lat": "48.95566461",
+      "lng": "1.91856346",
+      "popup": "<a href='/rechetab/0781915H-college-leonard-de-vinci-ecquevilly.html'>CLG LEONARD DE VINCI</a><br/>78920 ECQUEVILLY<br/>",
+      "uai": "0781915H"
+    },
+    {
+      "lat": "48.79239032",
+      "lng": "1.97021290",
+      "popup": "<a href='/rechetab/0782114Z-college-de-la-clef-saint-pierre-elancourt.html'>CLG DE LA CLEF SAINT-PIERRE</a><br/>78990 ELANCOURT<br/>",
+      "uai": "0782114Z"
+    },
+    {
+      "lat": "48.76596943",
+      "lng": "1.95517529",
+      "popup": "<a href='/rechetab/0780856G-college-l-agiot-elancourt.html'>CLG L AGIOT</a><br/>78990 ELANCOURT<br/>",
+      "uai": "0780856G"
+    },
+    {
+      "lat": "48.95421358",
+      "lng": "1.82404203",
+      "popup": "<a href='/rechetab/0780656P-college-benjamin-franklin-epone.html'>CLG BENJAMIN FRANKLIN</a><br/>78680 EPONE<br/>",
+      "uai": "0780656P"
+    },
+    {
+      "lat": "48.86669583",
+      "lng": "1.97945245",
+      "popup": "<a href='/rechetab/0781863B-college-jean-monnet-feucherolles.html'>CLG JEAN MONNET</a><br/>78810 FEUCHEROLLES<br/>",
+      "uai": "0781863B"
+    },
+    {
+      "lat": "48.81138475",
+      "lng": "2.05323237",
+      "popup": "<a href='/rechetab/0780185C-college-descartes-fontenay-le-fleury.html'>CLG DESCARTES</a><br/>78330 FONTENAY-LE-FLEURY<br/>",
+      "uai": "0780185C"
+    },
+    {
+      "lat": "49.01368203",
+      "lng": "1.90271341",
+      "popup": "<a href='/rechetab/0783464S-college-de-la-montcient-gaillon-sur-montcient.html'>CLG DE LA MONTCIENT</a><br/>78250 GAILLON-SUR-MONTCIENT<br/>",
+      "uai": "0783464S"
+    },
+    {
+      "lat": "48.99095962",
+      "lng": "1.82052238",
+      "popup": "<a href='/rechetab/0780758A-college-albert-camus-gargenville.html'>CLG ALBERT CAMUS</a><br/>78440 GARGENVILLE<br/>",
+      "uai": "0780758A"
+    },
+    {
+      "lat": "48.76732591",
+      "lng": "2.06916472",
+      "popup": "<a href='/rechetab/0783378Y-college-ariane-guyancourt.html'>CLG ARIANE</a><br/>78280 GUYANCOURT<br/>",
+      "uai": "0783378Y"
+    },
+    {
+      "lat": "48.78273620",
+      "lng": "2.05462054",
+      "popup": "<a href='/rechetab/0781695U-college-les-saules-guyancourt.html'>CLG LES SAULES</a><br/>78280 GUYANCOURT<br/>",
+      "uai": "0781695U"
+    },
+    {
+      "lat": "48.77205062",
+      "lng": "2.06523355",
+      "popup": "<a href='/rechetab/0780581H-college-paul-eluard-guyancourt.html'>CLG PAUL ELUARD</a><br/>78280 GUYANCOURT<br/>",
+      "uai": "0780581H"
+    },
+    {
+      "lat": "48.78946983",
+      "lng": "1.60874926",
+      "popup": "<a href='/rechetab/0780254C-college-francois-mauriac-houdan.html'>CLG FRANCOIS MAURIAC</a><br/>78550 HOUDAN<br/>",
+      "uai": "0780254C"
+    },
+    {
+      "lat": "48.92721313",
+      "lng": "2.18639478",
+      "popup": "<a href='/rechetab/0780269U-college-guy-de-maupassant-houilles.html'>CLG GUY DE MAUPASSANT</a><br/>78800 HOUILLES<br/>",
+      "uai": "0780269U"
+    },
+    {
+      "lat": "48.92932037",
+      "lng": "2.17955934",
+      "popup": "<a href='/rechetab/0783253M-college-lamartine-houilles.html'>CLG LAMARTINE</a><br/>78800 HOUILLES<br/>",
+      "uai": "0783253M"
+    },
+    {
+      "lat": "48.98774435",
+      "lng": "1.79319060",
+      "popup": "<a href='/rechetab/0781885A-college-jacques-cartier-issou.html'>CLG JACQUES CARTIER</a><br/>78440 ISSOU<br/>",
+      "uai": "0781885A"
+    },
+    {
+      "lat": "48.80460696",
+      "lng": "1.88928973",
+      "popup": "<a href='/rechetab/0781632A-college-saint-simon-jouars-pontchartrain.html'>CLG SAINT-SIMON</a><br/>78760 JOUARS-PONTCHARTRAIN<br/>",
+      "uai": "0781632A"
+    },
+    {
+      "lat": "48.84953331",
+      "lng": "2.14474287",
+      "popup": "<a href='/rechetab/0780504Z-college-pasteur-la-celle-saint-cloud.html'>CLG PASTEUR</a><br/>78170 LA CELLE-SAINT-CLOUD<br/>",
+      "uai": "0780504Z"
+    },
+    {
+      "lat": "48.84346598",
+      "lng": "2.12828112",
+      "popup": "<a href='/rechetab/0780036R-college-victor-hugo-la-celle-saint-cloud.html'>CLG VICTOR HUGO</a><br/>78170 LA CELLE-SAINT-CLOUD<br/>",
+      "uai": "0780036R"
+    },
+    {
+      "lat": "48.82632464",
+      "lng": "2.12069162",
+      "popup": "<a href='/rechetab/0783252L-college-charles-peguy-le-chesnay-rocquencourt.html'>CLG CHARLES PEGUY</a><br/>78150 LE CHESNAY-ROCQUENCOURT<br/>",
+      "uai": "0783252L"
+    },
+    {
+      "lat": "48.74509110",
+      "lng": "1.95040156",
+      "popup": "<a href='/rechetab/0780512H-college-philippe-de-champaigne-le-mesnil-saint-denis.html'>CLG PHILIPPE DE CHAMPAIGNE</a><br/>78320 LE MESNIL-SAINT-DENIS<br/>",
+      "uai": "0780512H"
+    },
+    {
+      "lat": "48.89030985",
+      "lng": "2.10552246",
+      "popup": "<a href='/rechetab/0783215W-college-jean-moulin-le-pecq.html'>CLG JEAN MOULIN</a><br/>78230 LE PECQ<br/>",
+      "uai": "0783215W"
+    },
+    {
+      "lat": "48.89020757",
+      "lng": "2.11621273",
+      "popup": "<a href='/rechetab/0780263M-college-pierre-et-marie-curie-le-pecq.html'>CLG PIERRE ET MARIE CURIE</a><br/>78230 LE PECQ<br/>",
+      "uai": "0780263M"
+    },
+    {
+      "lat": "48.89431629",
+      "lng": "2.13912154",
+      "popup": "<a href='/rechetab/0781105C-college-le-cedre-le-vesinet.html'>CLG LE CEDRE</a><br/>78110 LE VESINET<br/>",
+      "uai": "0781105C"
+    },
+    {
+      "lat": "48.82786228",
+      "lng": "1.98251351",
+      "popup": "<a href='/rechetab/0783251K-college-anatole-france-les-clayes-sous-bois.html'>CLG ANATOLE FRANCE</a><br/>78340 LES CLAYES-SOUS-BOIS<br/>",
+      "uai": "0783251K"
+    },
+    {
+      "lat": "48.82388066",
+      "lng": "1.97305757",
+      "popup": "<a href='/rechetab/0780760C-college-la-fosse-aux-dames-les-clayes-sous-bois.html'>CLG LA FOSSE AUX DAMES</a><br/>78340 LES CLAYES-SOUS-BOIS<br/>",
+      "uai": "0780760C"
+    },
+    {
+      "lat": "48.71236124",
+      "lng": "1.89106851",
+      "popup": "<a href='/rechetab/0780574A-college-les-molieres-les-essarts-le-roi.html'>CLG LES MOLIERES</a><br/>78690 LES ESSARTS-LE-ROI<br/>",
+      "uai": "0780574A"
+    },
+    {
+      "lat": "48.97789139",
+      "lng": "1.90984644",
+      "popup": "<a href='/rechetab/0781914G-college-jean-vilar-les-mureaux.html'>CLG JEAN VILAR</a><br/>78133 LES MUREAUX<br/>",
+      "uai": "0781914G"
+    },
+    {
+      "lat": "48.98275302",
+      "lng": "1.92288711",
+      "popup": "<a href='/rechetab/0780180X-college-jules-verne-les-mureaux.html'>CLG JULES VERNE</a><br/>78130 LES MUREAUX<br/>",
+      "uai": "0780180X"
+    },
+    {
+      "lat": "48.99811564",
+      "lng": "1.92348705",
+      "popup": "<a href='/rechetab/0780572Y-college-paul-verlaine-les-mureaux.html'>CLG PAUL VERLAINE</a><br/>78130 LES MUREAUX<br/>",
+      "uai": "0780572Y"
+    },
+    {
+      "lat": "48.99785971",
+      "lng": "1.74806042",
+      "popup": "<a href='/rechetab/0780255D-college-albert-thierry-limay.html'>CLG ALBERT THIERRY</a><br/>78520 LIMAY<br/>",
+      "uai": "0780255D"
+    },
+    {
+      "lat": "49.00597100",
+      "lng": "1.73617043",
+      "popup": "<a href='/rechetab/0782115A-college-galilee-limay.html'>CLG GALILEE</a><br/>78520 LIMAY<br/>",
+      "uai": "0782115A"
+    },
+    {
+      "lat": "48.96863283",
+      "lng": "1.69264078",
+      "popup": "<a href='/rechetab/0781098V-college-george-sand-magnanville.html'>CLG GEORGE SAND</a><br/>78200 MAGNANVILLE<br/>",
+      "uai": "0781098V"
+    },
+    {
+      "lat": "48.72146172",
+      "lng": "2.09203630",
+      "popup": "<a href='/rechetab/0781171Z-college-albert-einstein-magny-les-hameaux.html'>CLG ALBERT EINSTEIN</a><br/>78114 MAGNY-LES-HAMEAUX<br/>",
+      "uai": "0781171Z"
+    },
+    {
+      "lat": "48.95262113",
+      "lng": "2.13489557",
+      "popup": "<a href='/rechetab/0783156G-college-jean-cocteau-maisons-laffitte.html'>CLG JEAN COCTEAU</a><br/>78600 MAISONS-LAFFITTE<br/>",
+      "uai": "0783156G"
+    },
+    {
+      "lat": "48.94586107",
+      "lng": "2.14946933",
+      "popup": "<a href='/rechetab/0780112Y-college-le-prieure-maisons-laffitte.html'>CLG LE PRIEURE</a><br/>78600 MAISONS-LAFFITTE<br/>",
+      "uai": "0780112Y"
+    },
+    {
+      "lat": "49.00116712",
+      "lng": "1.68275833",
+      "popup": "<a href='/rechetab/0783774D-college-andre-chenier-nouveau-college-mantes-la-jolie.html'>CLG ANDRE CHENIER-NOUVEAU COLLEGE</a><br/>78200 MANTES-LA-JOLIE<br/>",
+      "uai": "0783774D"
+    },
+    {
+      "lat": "48.99875657",
+      "lng": "1.70395156",
+      "popup": "<a href='/rechetab/0781955B-college-de-gassicourt-mantes-la-jolie.html'>CLG DE GASSICOURT</a><br/>78200 MANTES-LA-JOLIE<br/>",
+      "uai": "0781955B"
+    },
+    {
+      "lat": "48.99927698",
+      "lng": "1.68745890",
+      "popup": "<a href='/rechetab/0781977A-college-georges-clemenceau-mantes-la-jolie.html'>CLG GEORGES CLEMENCEAU</a><br/>78200 MANTES-LA-JOLIE<br/>",
+      "uai": "0781977A"
+    },
+    {
+      "lat": "48.99288924",
+      "lng": "1.71380108",
+      "popup": "<a href='/rechetab/0780708W-college-jules-ferry-mantes-la-jolie.html'>CLG JULES FERRY</a><br/>78200 MANTES-LA-JOLIE<br/>",
+      "uai": "0780708W"
+    },
+    {
+      "lat": "48.99435704",
+      "lng": "1.69176662",
+      "popup": "<a href='/rechetab/0781896M-college-pasteur-mantes-la-jolie.html'>CLG PASTEUR</a><br/>78200 MANTES-LA-JOLIE<br/>",
+      "uai": "0781896M"
+    },
+    {
+      "lat": "48.96377739",
+      "lng": "1.71461831",
+      "popup": "<a href='/rechetab/0780569V-college-la-vaucouleurs-mantes-la-ville.html'>CLG LA VAUCOULEURS</a><br/>78711 MANTES-LA-VILLE<br/>",
+      "uai": "0780569V"
+    },
+    {
+      "lat": "48.97516320",
+      "lng": "1.70293053",
+      "popup": "<a href='/rechetab/0780116C-college-les-plaisances-mantes-la-ville.html'>CLG LES PLAISANCES</a><br/>78711 MANTES-LA-VILLE<br/>",
+      "uai": "0780116C"
+    },
+    {
+      "lat": "48.86788856",
+      "lng": "2.09913476",
+      "popup": "<a href='/rechetab/0780119F-college-louis-lumiere-marly-le-roi.html'>CLG LOUIS LUMIERE</a><br/>78160 MARLY-LE-ROI<br/>",
+      "uai": "0780119F"
+    },
+    {
+      "lat": "48.90394359",
+      "lng": "1.85766108",
+      "popup": "<a href='/rechetab/0780709X-college-de-la-mauldre-maule.html'>CLG DE LA MAULDRE</a><br/>78580 MAULE<br/>",
+      "uai": "0780709X"
+    },
+    {
+      "lat": "48.76999130",
+      "lng": "1.94528653",
+      "popup": "<a href='/rechetab/0780720J-college-alexandre-dumas-maurepas.html'>CLG ALEXANDRE DUMAS</a><br/>78310 MAUREPAS<br/>",
+      "uai": "0780720J"
+    },
+    {
+      "lat": "48.76380407",
+      "lng": "1.94368497",
+      "popup": "<a href='/rechetab/0780419G-college-louis-pergaud-maurepas.html'>CLG LOUIS PERGAUD</a><br/>78315 MAUREPAS<br/>",
+      "uai": "0780419G"
+    },
+    {
+      "lat": "49.01022819",
+      "lng": "1.90955326",
+      "popup": "<a href='/rechetab/0780571X-college-henri-iv-meulan-en-yvelines.html'>CLG HENRI IV</a><br/>78250 MEULAN-EN-YVELINES<br/>",
+      "uai": "0780571X"
+    },
+    {
+      "lat": "48.91008336",
+      "lng": "2.14261685",
+      "popup": "<a href='/rechetab/0780578E-college-pablo-picasso-montesson.html'>CLG PABLO PICASSO</a><br/>78360 MONTESSON<br/>",
+      "uai": "0780578E"
+    },
+    {
+      "lat": "48.77484807",
+      "lng": "1.81594627",
+      "popup": "<a href='/rechetab/0780262L-college-maurice-ravel-montfort-l-amaury.html'>CLG MAURICE RAVEL</a><br/>78490 MONTFORT-L'AMAURY<br/>",
+      "uai": "0780262L"
+    },
+    {
+      "lat": "48.77730760",
+      "lng": "2.04529048",
+      "popup": "<a href='/rechetab/0781954A-college-alberto-giacometti-montigny-le-bretonneux.html'>CLG ALBERTO GIACOMETTI</a><br/>78180 MONTIGNY-LE-BRETONNEUX<br/>",
+      "uai": "0781954A"
+    },
+    {
+      "lat": "48.77251381",
+      "lng": "2.02638153",
+      "popup": "<a href='/rechetab/0781263Z-college-la-couldre-montigny-le-bretonneux.html'>CLG LA COULDRE</a><br/>78180 MONTIGNY-LE-BRETONNEUX<br/>",
+      "uai": "0781263Z"
+    },
+    {
+      "lat": "48.77885670",
+      "lng": "2.03691676",
+      "popup": "<a href='/rechetab/0781818C-college-les-pres-montigny-le-bretonneux.html'>CLG LES PRES</a><br/>78180 MONTIGNY-LE-BRETONNEUX<br/>",
+      "uai": "0781818C"
+    },
+    {
+      "lat": "48.83738667",
+      "lng": "2.06984556",
+      "popup": "<a href='/rechetab/0780179W-college-j-b-de-la-quintinye-noisy-le-roi.html'>CLG J-B DE LA QUINTINYE</a><br/>78590 NOISY-LE-ROI<br/>",
+      "uai": "0780179W"
+    },
+    {
+      "lat": "48.84211990",
+      "lng": "1.69841060",
+      "popup": "<a href='/rechetab/0781864C-college-georges-pompidou-orgerus.html'>CLG GEORGES POMPIDOU</a><br/>78910 ORGERUS<br/>",
+      "uai": "0781864C"
+    },
+    {
+      "lat": "48.82476502",
+      "lng": "1.94927027",
+      "popup": "<a href='/rechetab/0780420H-college-blaise-pascal-plaisir.html'>CLG BLAISE PASCAL</a><br/>78373 PLAISIR<br/>",
+      "uai": "0780420H"
+    },
+    {
+      "lat": "48.81988920",
+      "lng": "1.94223004",
+      "popup": "<a href='/rechetab/0780761D-college-guillaume-apollinaire-plaisir.html'>CLG GUILLAUME APOLLINAIRE</a><br/>78375 PLAISIR<br/>",
+      "uai": "0780761D"
+    },
+    {
+      "lat": "48.92645616",
+      "lng": "2.04235868",
+      "popup": "<a href='/rechetab/0783358B-college-jean-jaures-poissy.html'>CLG JEAN JAURES</a><br/>78300 POISSY<br/>",
+      "uai": "0783358B"
+    },
+    {
+      "lat": "48.92341679",
+      "lng": "2.02722100",
+      "popup": "<a href='/rechetab/0781101Y-college-le-corbusier-poissy.html'>CLG LE CORBUSIER</a><br/>78300 POISSY<br/>",
+      "uai": "0781101Y"
+    },
+    {
+      "lat": "48.91943562",
+      "lng": "2.02658035",
+      "popup": "<a href='/rechetab/0780264N-college-les-grands-champs-poissy.html'>CLG LES GRANDS CHAMPS</a><br/>78300 POISSY<br/>",
+      "uai": "0780264N"
+    },
+    {
+      "lat": "48.65105735",
+      "lng": "1.84247089",
+      "popup": "<a href='/rechetab/0781886B-college-catherine-de-vivonne-rambouillet.html'>CLG CATHERINE DE VIVONNE</a><br/>78513 RAMBOUILLET<br/>",
+      "uai": "0781886B"
+    },
+    {
+      "lat": "48.63516035",
+      "lng": "1.82423747",
+      "popup": "<a href='/rechetab/0780256E-college-le-racinay-rambouillet.html'>CLG LE RACINAY</a><br/>78120 RAMBOUILLET<br/>",
+      "uai": "0780256E"
+    },
+    {
+      "lat": "48.64098698",
+      "lng": "1.82459929",
+      "popup": "<a href='/rechetab/0780846W-college-le-rondeau-rambouillet.html'>CLG LE RONDEAU</a><br/>78511 RAMBOUILLET<br/>",
+      "uai": "0780846W"
+    },
+    {
+      "lat": "49.00109635",
+      "lng": "1.64522037",
+      "popup": "<a href='/rechetab/0781916J-college-sully-rosny-sur-seine.html'>CLG SULLY</a><br/>78710 ROSNY-SUR-SEINE<br/>",
+      "uai": "0781916J"
+    },
+    {
+      "lat": "48.57607171",
+      "lng": "1.94718540",
+      "popup": "<a href='/rechetab/0780712A-college-georges-brassens-saint-arnoult-en-yvelines.html'>CLG GEORGES BRASSENS</a><br/>78730 SAINT-ARNOULT-EN-YVELINES<br/>",
+      "uai": "0780712A"
+    },
+    {
+      "lat": "48.80927557",
+      "lng": "2.06086784",
+      "popup": "<a href='/rechetab/0780186D-college-jean-racine-saint-cyr-l-ecole.html'>CLG JEAN RACINE</a><br/>78210 SAINT-CYR-L'ECOLE<br/>",
+      "uai": "0780186D"
+    },
+    {
+      "lat": "48.89287342",
+      "lng": "2.09635514",
+      "popup": "<a href='/rechetab/0781205L-college-claude-debussy-saint-germain-en-laye.html'>CLG CLAUDE DEBUSSY</a><br/>78100 SAINT-GERMAIN-EN-LAYE<br/>",
+      "uai": "0781205L"
+    },
+    {
+      "lat": "48.89636865",
+      "lng": "2.06270414",
+      "popup": "<a href='/rechetab/0783547G-college-international-saint-germain-en-laye.html'>CLG INTERNATIONAL</a><br/>78104 SAINT-GERMAIN-EN-LAYE<br/>",
+      "uai": "0783547G"
+    },
+    {
+      "lat": "48.89195403",
+      "lng": "2.06446804",
+      "popup": "<a href='/rechetab/0780714C-college-les-hauts-grillets-saint-germain-en-laye.html'>CLG LES HAUTS GRILLETS</a><br/>78100 SAINT-GERMAIN-EN-LAYE<br/>",
+      "uai": "0780714C"
+    },
+    {
+      "lat": "48.89144941",
+      "lng": "2.09547560",
+      "popup": "<a href='/rechetab/0781204K-college-marcel-roby-saint-germain-en-laye.html'>CLG MARCEL ROBY</a><br/>78101 SAINT-GERMAIN-EN-LAYE<br/>",
+      "uai": "0781204K"
+    },
+    {
+      "lat": "48.92741641",
+      "lng": "2.16019807",
+      "popup": "<a href='/rechetab/0780258G-college-colette-sartrouville.html'>CLG COLETTE</a><br/>78500 SARTROUVILLE<br/>",
+      "uai": "0780258G"
+    },
+    {
+      "lat": "48.93827555",
+      "lng": "2.16741477",
+      "popup": "<a href='/rechetab/0780579F-college-darius-milhaud-sartrouville.html'>CLG DARIUS MILHAUD</a><br/>78500 SARTROUVILLE<br/>",
+      "uai": "0780579F"
+    },
+    {
+      "lat": "48.94795011",
+      "lng": "2.16986226",
+      "popup": "<a href='/rechetab/0783463R-college-louis-paulhan-sartrouville.html'>CLG LOUIS PAULHAN</a><br/>78500 SARTROUVILLE<br/>",
+      "uai": "0783463R"
+    },
+    {
+      "lat": "48.94293758",
+      "lng": "2.20031022",
+      "popup": "<a href='/rechetab/0780577D-college-romain-rolland-sartrouville.html'>CLG ROMAIN ROLLAND</a><br/>78501 SARTROUVILLE<br/>",
+      "uai": "0780577D"
+    },
+    {
+      "lat": "48.78494666",
+      "lng": "1.97819855",
+      "popup": "<a href='/rechetab/0781618K-college-gustave-courbet-trappes.html'>CLG GUSTAVE COURBET</a><br/>78190 TRAPPES<br/>",
+      "uai": "0781618K"
+    },
+    {
+      "lat": "48.78140034",
+      "lng": "1.99466028",
+      "popup": "<a href='/rechetab/0780514K-college-le-village-trappes.html'>CLG LE VILLAGE</a><br/>78194 TRAPPES<br/>",
+      "uai": "0780514K"
+    },
+    {
+      "lat": "48.77468031",
+      "lng": "1.97841589",
+      "popup": "<a href='/rechetab/0780187E-college-youri-gagarine-trappes.html'>CLG YOURI GAGARINE</a><br/>78190 TRAPPES<br/>",
+      "uai": "0780187E"
+    },
+    {
+      "lat": "48.97772156",
+      "lng": "2.01409221",
+      "popup": "<a href='/rechetab/0780573Z-college-les-chatelaines-triel-sur-seine.html'>CLG LES CHATELAINES</a><br/>78510 TRIEL-SUR-SEINE<br/>",
+      "uai": "0780573Z"
+    },
+    {
+      "lat": "48.78176124",
+      "lng": "2.19044708",
+      "popup": "<a href='/rechetab/0780265P-college-maryse-bastie-velizy-villacoublay.html'>CLG MARYSE BASTIE</a><br/>78140 VELIZY-VILLACOUBLAY<br/>",
+      "uai": "0780265P"
+    },
+    {
+      "lat": "48.78354159",
+      "lng": "2.17655036",
+      "popup": "<a href='/rechetab/0780210E-college-st-exupery-velizy-villacoublay.html'>CLG ST EXUPERY</a><br/>78140 VELIZY-VILLACOUBLAY<br/>",
+      "uai": "0780210E"
+    },
+    {
+      "lat": "48.97943688",
+      "lng": "1.96045199",
+      "popup": "<a href='/rechetab/0780267S-college-jean-zay-verneuil-sur-seine.html'>CLG JEAN ZAY</a><br/>78480 VERNEUIL-SUR-SEINE<br/>",
+      "uai": "0780267S"
+    },
+    {
+      "lat": "48.97113988",
+      "lng": "1.97181643",
+      "popup": "<a href='/rechetab/0780845V-college-emile-zola-vernouillet.html'>CLG EMILE ZOLA</a><br/>78540 VERNOUILLET<br/>",
+      "uai": "0780845V"
+    },
+    {
+      "lat": "48.81028863",
+      "lng": "2.14442508",
+      "popup": "<a href='/rechetab/0781298M-college-clagny-versailles.html'>CLG CLAGNY</a><br/>78000 VERSAILLES<br/>",
+      "uai": "0781298M"
+    },
+    {
+      "lat": "48.80570114",
+      "lng": "2.13672676",
+      "popup": "<a href='/rechetab/0781106D-college-hoche-versailles.html'>CLG HOCHE</a><br/>78000 VERSAILLES<br/>",
+      "uai": "0781106D"
+    },
+    {
+      "lat": "48.80262704",
+      "lng": "2.14550385",
+      "popup": "<a href='/rechetab/0781107E-college-jean-philippe-rameau-versailles.html'>CLG JEAN PHILIPPE RAMEAU</a><br/>78000 VERSAILLES<br/>",
+      "uai": "0781107E"
+    },
+    {
+      "lat": "48.79807886",
+      "lng": "2.13130504",
+      "popup": "<a href='/rechetab/0780580G-college-pierre-de-nolhac-versailles.html'>CLG PIERRE DE NOLHAC</a><br/>78000 VERSAILLES<br/>",
+      "uai": "0780580G"
+    },
+    {
+      "lat": "48.79701988",
+      "lng": "2.13510059",
+      "popup": "<a href='/rechetab/0780718G-college-raymond-poincare-versailles.html'>CLG RAYMOND POINCARE</a><br/>78000 VERSAILLES<br/>",
+      "uai": "0780718G"
+    },
+    {
+      "lat": "48.83152027",
+      "lng": "1.99893325",
+      "popup": "<a href='/rechetab/0780260J-college-leon-blum-villepreux.html'>CLG LEON BLUM</a><br/>78450 VILLEPREUX<br/>",
+      "uai": "0780260J"
+    },
+    {
+      "lat": "48.79821860",
+      "lng": "2.17488916",
+      "popup": "<a href='/rechetab/0780184B-college-jean-racine-viroflay.html'>CLG JEAN RACINE</a><br/>78220 VIROFLAY<br/>",
+      "uai": "0780184B"
+    },
+    {
+      "lat": "48.76130930",
+      "lng": "2.04690820",
+      "popup": "<a href='/rechetab/0781570H-college-helene-boucher-voisins-le-bretonneux.html'>CLG HELENE BOUCHER</a><br/>78960 VOISINS-LE-BRETONNEUX<br/>",
+      "uai": "0781570H"
+    },
+    {
+      "lat": "48.76299703",
+      "lng": "2.04706378",
+      "popup": "<a href='/rechetab/0781789W-college-j-francois-champollion-voisins-le-bretonneux.html'>CLG J-FRANCOIS CHAMPOLLION</a><br/>78960 VOISINS-LE-BRETONNEUX<br/>",
+      "uai": "0781789W"
+    }
+  ]
+}
